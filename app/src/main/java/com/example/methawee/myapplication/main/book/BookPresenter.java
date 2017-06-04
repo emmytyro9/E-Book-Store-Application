@@ -1,23 +1,15 @@
 package com.example.methawee.myapplication.main.book;
 
 
-import com.example.methawee.myapplication.data.BookRepository;
 import com.example.methawee.myapplication.data.Book;
-import com.example.methawee.myapplication.data.cart.Cart;
-import com.example.methawee.myapplication.data.cart.User;
+import com.example.methawee.myapplication.data.BookRepository;
 
 import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by methawee on 4/20/2017 AD.
- */
-
 public class BookPresenter implements Observer {
 
-    private User user;
-    private Cart cart;
     private BookView view;
     private BookRepository repository;
 

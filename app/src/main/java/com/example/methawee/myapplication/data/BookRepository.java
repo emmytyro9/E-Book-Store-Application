@@ -4,11 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
-
-/**
- * Created by methawee on 4/20/2017 AD.
- */
-
 public abstract class BookRepository extends Observable {
 
     public abstract void fetchAllBooks();

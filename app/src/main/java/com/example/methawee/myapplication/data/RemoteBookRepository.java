@@ -13,10 +13,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * Created by methawee on 4/28/2017 AD.
- */
-
 public class RemoteBookRepository extends BookRepository {
 
     private ArrayList<Book> books;

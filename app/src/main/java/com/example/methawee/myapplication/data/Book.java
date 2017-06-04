@@ -3,10 +3,6 @@ package com.example.methawee.myapplication.data;
 
 import java.io.Serializable;
 
-/**
- * Created by methawee on 4/20/2017 AD.
- */
-
 public class Book implements Comparable, Serializable {
     private int id;
     private String title;

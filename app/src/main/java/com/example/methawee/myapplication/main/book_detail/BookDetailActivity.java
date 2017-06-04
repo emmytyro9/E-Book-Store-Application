@@ -13,9 +13,6 @@ import com.example.methawee.myapplication.data.BookRepository;
 import com.example.methawee.myapplication.main.book.BookPresenter;
 import com.squareup.picasso.Picasso;
 
-/**
- * Created by methawee on 5/3/2017 AD.
- */
 
 public class BookDetailActivity extends AppCompatActivity {
     private TextView title;

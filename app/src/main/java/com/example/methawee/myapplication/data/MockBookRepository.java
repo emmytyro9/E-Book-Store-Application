@@ -3,10 +3,6 @@ package com.example.methawee.myapplication.data;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by methawee on 4/30/2017 AD.
- */
-
 public class MockBookRepository extends BookRepository {
 
     private List<Book> books;

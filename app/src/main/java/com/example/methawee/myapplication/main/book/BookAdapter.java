@@ -15,9 +15,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by methawee on 4/30/2017 AD.
- */
 
 public class BookAdapter extends ArrayAdapter<Book> {
 
